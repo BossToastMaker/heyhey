@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" appversion="6.0.2" apprev="17253">
+  <panorama hideabout="1" id="node1">
+    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="-2" levelbiashidpi="1.000" width="1750" overlap="1" leveltilesize="510" levelingroll="0" height="1750" levelbias="0.400">
+      <level predecode="0" width="1750" preload="0" height="1750"/>
+      <level predecode="0" width="875" preload="0" height="875"/>
+      <level predecode="1" width="437" preload="1" height="437"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" pan="360" tilt="90" fovfisheye="360" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata description="" author="" latitude="" info="" longitude="" customnodeid="" copyright="" source="" datetime="12.01.2017 13:52" title="Test" tags="Desktop" comment=""/>
+    <hotspots width="180" wordwrap="1" height="0">
+      <label borderradius="1" background="1" textalpha="1" enabled="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" width="180" wordwrap="1" bordercolor="0x000000" height="0" backgroundcolor="0xffffff" border="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" borderalpha="1" handcursor="1" mode="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <polyhotspot description="Her er linken som viderefører til en ekstern link" url="immersive.no" id="Poly01" title="Hei 2" target="_blank">
+        <polystring>-14.95/17.14|-7.34/17.3|-7.26/12.43|-14.88/12.16</polystring>
+      </polyhotspot>
+      <polyhotspot description="Her er linken som viderefører til en ekstern link" url="immersive.no" id="Poly02" title="Hei 3" target="_blank">
+        <polystring>-14.94/9.72|-7.32/9.79|-7.24/5.06|-14.96/4.91</polystring>
+      </polyhotspot>
+      <polyhotspot description="Her er linken som viderefører til en ekstern link" url="immersive.no" id="Poly03" title="Hei 1" target="_blank">
+        <polystring>-7.28/24.54|-7.26/19.72|-15.02/19.46|-15/24.32</polystring>
+      </polyhotspot>
+      <hotspot description="" pan="-335.94" url="{node2}" id="Utsikt 2" tilt="-1.45" title="Utsikt 2" target="-4.7/1.1/70.0" skinid="ht_node"/>
+      <hotspot description="Klikk her for å gå til utsikten 3" pan="-251.19" url="{node2}" id="Utsikt 3" tilt="-5.42" title="Utsikt 3" target="" skinid="ht_node"/>
+    </hotspots>
+    <media>
+      <lensflare pan="-315.79" blinding="50" alpha="80" color="0xffffff" id="Lensflare01" tilt="50" type="1"/>
+    </media>
+    <transition zoomout="0" enabled="1" zoomspeed="2" zoomfov="20" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" blendtime="1" zoomin="0" softedge="0"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" invertwheel="0" speedwheel="1" contextfullscreen="1" invertcontrol="1" hideabout="1" rubberband="0" lockedkeyboard="0" lockedmouse="0" simulatemass="1" lockedkeyboardzoom="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0">
+      <menulink url="www.immersive.no" text="IMMERSIVE"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node2">
+    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" width="1750" overlap="1" leveltilesize="510" levelingroll="0" height="1750" levelbias="0.400">
+      <level predecode="0" width="1750" preload="0" height="1750"/>
+      <level predecode="0" width="875" preload="0" height="875"/>
+      <level predecode="1" width="437" preload="1" height="437"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" pan="360" tilt="90" fovfisheye="360" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata description="" author="" latitude="52.255471" info="" longitude="20.941089" customnodeid="" copyright="" source="" datetime="16.01.2017 15:28" title="" tags="Desktop" comment=""/>
+    <hotspots width="180" wordwrap="1" height="0">
+      <label borderradius="1" background="1" textalpha="1" enabled="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" width="180" wordwrap="1" bordercolor="0x000000" height="0" backgroundcolor="0xffffff" border="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" borderalpha="1" handcursor="1" mode="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot description="Klikk her for å gå til den første utsikten" pan="-349.33" url="{node1}" id="Utsikt 1" tilt="-1.19" title="Utsikt 1" target="" skinid="ht_node"/>
+      <hotspot description="Klikk her for å gå til den tredje utsikten" pan="-48.28" url="{node3}" id="Utsikt 3" tilt="-2.41" title="Utsikt 3" target="" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" enabled="1" zoomspeed="2" zoomfov="20" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" blendtime="1" zoomin="0" softedge="0"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" invertwheel="0" speedwheel="1" contextfullscreen="1" invertcontrol="1" hideabout="1" rubberband="0" lockedkeyboard="0" lockedmouse="0" simulatemass="1" lockedkeyboardzoom="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0">
+      <menulink url="www.immersive.no" text="IMMERSIVE"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node3">
+    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbiashidpi="1.000" width="1750" overlap="1" leveltilesize="510" levelingroll="0" height="1750" levelbias="0.400">
+      <level predecode="0" width="1750" preload="0" height="1750"/>
+      <level predecode="0" width="875" preload="0" height="875"/>
+      <level predecode="1" width="437" preload="1" height="437"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" pan="360" tilt="90" fovfisheye="360" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata description="" author="" latitude="" info="" longitude="" customnodeid="" copyright="" source="" datetime="26.01.2017 15:10" title="" tags="Desktop" comment=""/>
+    <hotspots width="180" wordwrap="1" height="0">
+      <label borderradius="1" background="1" textalpha="1" enabled="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" width="180" wordwrap="1" bordercolor="0x000000" height="0" backgroundcolor="0xffffff" border="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" borderalpha="1" handcursor="1" mode="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot description="Klikk her for å til utsikten 2" pan="-221.04" url="{node2}" id="Utsikt 2" tilt="-3.66" title="Utsikt 2" target="" skinid="ht_node"/>
+      <hotspot description="Klikk her for å gå til utsikten 1" pan="-328.2" url="{node1}" id="Utsikt 1" tilt="-0.26" title="Utsikt 1" target="" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" enabled="1" zoomspeed="2" zoomfov="20" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" blendtime="1" zoomin="0" softedge="0"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" invertwheel="0" speedwheel="1" contextfullscreen="1" invertcontrol="1" hideabout="1" rubberband="0" lockedkeyboard="0" lockedmouse="0" simulatemass="1" lockedkeyboardzoom="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0">
+      <menulink url="www.immersive.no" text="IMMERSIVE"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata description="" author="" latitude="" info="" longitude="" customnodeid="" copyright="" source="" datetime="" title="" tags="" comment=""/>
+  </masternode>
+</tour>
