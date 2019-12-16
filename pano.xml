@@ -17,13 +17,13 @@
     <hotspots width="180" wordwrap="1" height="0">
       <label borderradius="1" background="1" textalpha="1" enabled="1" backgroundalpha="1" textcolor="0x000000" borderalpha="1" width="180" wordwrap="1" bordercolor="0x000000" height="0" backgroundcolor="0xffffff" border="1"/>
       <polystyle backgroundalpha="0.2509803921568627" borderalpha="1" handcursor="1" mode="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
-      <polyhotspot description="Her er linken som viderefører til en ekstern link" url="immersive.no" id="Poly01" title="Hei 2" target="_blank">
+      <polyhotspot description="Her er linken som viderefører til en ekstern link" url="https://immersive.no/" id="Poly01" title="Leilighet 2" target="_blank">
         <polystring>-14.95/17.14|-7.34/17.3|-7.26/12.43|-14.88/12.16</polystring>
       </polyhotspot>
-      <polyhotspot description="Her er linken som viderefører til en ekstern link" url="immersive.no" id="Poly02" title="Hei 3" target="_blank">
+      <polyhotspot description="Her er linken som viderefører til en ekstern link" url="https://immersive.no/" id="Poly02" title="Leilighet 3" target="_blank">
         <polystring>-14.94/9.72|-7.32/9.79|-7.24/5.06|-14.96/4.91</polystring>
       </polyhotspot>
-      <polyhotspot description="Her er linken som viderefører til en ekstern link" url="immersive.no" id="Poly03" title="Hei 1" target="_blank">
+      <polyhotspot description="Her er linken som viderefører til en ekstern link" url="https://immersive.no/" id="Poly03" title="Leilighet 1" target="_blank">
         <polystring>-7.28/24.54|-7.26/19.72|-15.02/19.46|-15/24.32</polystring>
       </polyhotspot>
       <hotspot description="" pan="-335.94" url="{node2}" id="Utsikt 2" tilt="-1.45" title="Utsikt 2" target="-4.7/1.1/70.0" skinid="ht_node"/>
